@@ -1,0 +1,38 @@
+.Button {
+  width: 60px;
+  height: 56px;
+  border: 1px solid #b24242;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5px;
+}
+.Button:hover {
+  cursor: pointer;
+}
+.border-radius-left {
+  border-radius: 10px 0 0 10px;
+}
+.border-radius-right {
+  border-radius: 0px 10px 10px 0px;
+}
+.fill-primary {
+  background-color: #b24242;
+  color: #fff;
+}
+.fill-primary:hover {
+  background-color: #e06363;
+  color: #fff;
+}
+.fill-secondary {
+  background-color: #fff;
+  color: #b24242;
+}
+.fill-secondary:hover {
+  background-color: rgb(206, 193, 193);
+  color: #b24242;
+}
+.Button > span {
+  font-weight: 500;
+  font-size: 28px;
+}

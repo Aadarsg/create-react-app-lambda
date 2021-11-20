@@ -1,0 +1,14 @@
+.CounterValue {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  font-size: 12px;
+  font-weight: 500;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  margin-top: 10px;
+  margin-right: 100px;
+}
+.CounterValue > span {
+  padding-left: 5px;
+}

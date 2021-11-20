@@ -1,0 +1,21 @@
+.Display {
+  display: flex;
+  height: 56px;
+  width: 60px;
+  justify-content: center;
+  align-items: center;
+}
+.Display > input {
+  height: 56px;
+  width: 60px;
+  background-color: #fbe8e8;
+  border-top: 1px solid #b24242;
+  border-bottom: 1px solid #b24242;
+  border-left: none;
+  border-right: none;
+  text-align: center;
+  color: #b24242;
+  font-size: 21px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}

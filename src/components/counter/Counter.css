@@ -1,0 +1,11 @@
+.Counter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.Counter__btn-controls {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
